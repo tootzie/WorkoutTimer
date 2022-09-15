@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69D648C7CD30CB88E53D697B /* Pods_Proyek_IOS_BP_Jestut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA66EE456AAAF0E60AA9B55 /* Pods_Proyek_IOS_BP_Jestut.framework */; };
+		81D6652125792782002CEB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6652025792782002CEB74 /* AppDelegate.swift */; };
+		81D6652325792782002CEB74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6652225792782002CEB74 /* SceneDelegate.swift */; };
+		81D6652525792782002CEB74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6652425792782002CEB74 /* ViewController.swift */; };
+		81D6652825792782002CEB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D6652625792782002CEB74 /* Main.storyboard */; };
+		81D6652A257927A0002CEB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D66529257927A0002CEB74 /* Assets.xcassets */; };
+		81D6652D257927A0002CEB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D6652B257927A0002CEB74 /* LaunchScreen.storyboard */; };
+		81D66535257B910F002CEB74 /* titleWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D66534257B910F002CEB74 /* titleWorkoutViewController.swift */; };
+		81D66539257BB64E002CEB74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81D66538257BB64E002CEB74 /* GoogleService-Info.plist */; };
+		81D6653B257C155C002CEB74 /* stopwatch-graphic-icon-design-template-png_302689.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D6653A257C155C002CEB74 /* stopwatch-graphic-icon-design-template-png_302689.jpg */; };
+		81D6653D257CA21D002CEB74 /* workoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6653C257CA21D002CEB74 /* workoutDetailViewController.swift */; };
+		81D6653F257E0F0C002CEB74 /* workoutDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6653E257E0F0C002CEB74 /* workoutDetailCell.swift */; };
+		81D66541257E10BF002CEB74 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D66540257E10BF002CEB74 /* Exercise.swift */; };
+		81D66546257E694E002CEB74 /* timerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D66545257E694E002CEB74 /* timerPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F0572754F582A0D75903892 /* Pods-Proyek_IOS_BP_Jestut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyek_IOS_BP_Jestut.debug.xcconfig"; path = "Target Support Files/Pods-Proyek_IOS_BP_Jestut/Pods-Proyek_IOS_BP_Jestut.debug.xcconfig"; sourceTree = "<group>"; };
+		81D6651D25792782002CEB74 /* Proyek_IOS_BP_Jestut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyek_IOS_BP_Jestut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D6652025792782002CEB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81D6652225792782002CEB74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81D6652425792782002CEB74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81D6652725792782002CEB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81D66529257927A0002CEB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81D6652C257927A0002CEB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81D6652E257927A0002CEB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D66534257B910F002CEB74 /* titleWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleWorkoutViewController.swift; sourceTree = "<group>"; };
+		81D66538257BB64E002CEB74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81D6653A257C155C002CEB74 /* stopwatch-graphic-icon-design-template-png_302689.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stopwatch-graphic-icon-design-template-png_302689.jpg"; sourceTree = "<group>"; };
+		81D6653C257CA21D002CEB74 /* workoutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutDetailViewController.swift; sourceTree = "<group>"; };
+		81D6653E257E0F0C002CEB74 /* workoutDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutDetailCell.swift; sourceTree = "<group>"; };
+		81D66540257E10BF002CEB74 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		81D66545257E694E002CEB74 /* timerPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerPageViewController.swift; sourceTree = "<group>"; };
+		8CA66EE456AAAF0E60AA9B55 /* Pods_Proyek_IOS_BP_Jestut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Proyek_IOS_BP_Jestut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27AF64E4B1CB5296DF93AD7 /* Pods-Proyek_IOS_BP_Jestut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyek_IOS_BP_Jestut.release.xcconfig"; path = "Target Support Files/Pods-Proyek_IOS_BP_Jestut/Pods-Proyek_IOS_BP_Jestut.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D6651A25792782002CEB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D648C7CD30CB88E53D697B /* Pods_Proyek_IOS_BP_Jestut.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1525FE75B4FBF9367EA2F0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CA66EE456AAAF0E60AA9B55 /* Pods_Proyek_IOS_BP_Jestut.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D6651425792782002CEB74 = {
+			isa = PBXGroup;
+			children = (
+				81D6651F25792782002CEB74 /* Proyek_IOS_BP_Jestut */,
+				81D6651E25792782002CEB74 /* Products */,
+				9A68C0E09842DC9A0FBCDD18 /* Pods */,
+				1525FE75B4FBF9367EA2F0EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81D6651E25792782002CEB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D6651D25792782002CEB74 /* Proyek_IOS_BP_Jestut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D6651F25792782002CEB74 /* Proyek_IOS_BP_Jestut */ = {
+			isa = PBXGroup;
+			children = (
+				81D6653A257C155C002CEB74 /* stopwatch-graphic-icon-design-template-png_302689.jpg */,
+				81D6652425792782002CEB74 /* ViewController.swift */,
+				81D66534257B910F002CEB74 /* titleWorkoutViewController.swift */,
+				81D6653C257CA21D002CEB74 /* workoutDetailViewController.swift */,
+				81D66545257E694E002CEB74 /* timerPageViewController.swift */,
+				81D6653E257E0F0C002CEB74 /* workoutDetailCell.swift */,
+				81D66540257E10BF002CEB74 /* Exercise.swift */,
+				81D6652025792782002CEB74 /* AppDelegate.swift */,
+				81D6652225792782002CEB74 /* SceneDelegate.swift */,
+				81D6652625792782002CEB74 /* Main.storyboard */,
+				81D66529257927A0002CEB74 /* Assets.xcassets */,
+				81D6652B257927A0002CEB74 /* LaunchScreen.storyboard */,
+				81D6652E257927A0002CEB74 /* Info.plist */,
+				81D66538257BB64E002CEB74 /* GoogleService-Info.plist */,
+			);
+			path = Proyek_IOS_BP_Jestut;
+			sourceTree = "<group>";
+		};
+		9A68C0E09842DC9A0FBCDD18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F0572754F582A0D75903892 /* Pods-Proyek_IOS_BP_Jestut.debug.xcconfig */,
+				C27AF64E4B1CB5296DF93AD7 /* Pods-Proyek_IOS_BP_Jestut.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D6651C25792782002CEB74 /* Proyek_IOS_BP_Jestut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D66531257927A0002CEB74 /* Build configuration list for PBXNativeTarget "Proyek_IOS_BP_Jestut" */;
+			buildPhases = (
+				CD3C835983ED08591257949E /* [CP] Check Pods Manifest.lock */,
+				81D6651925792782002CEB74 /* Sources */,
+				81D6651A25792782002CEB74 /* Frameworks */,
+				81D6651B25792782002CEB74 /* Resources */,
+				6C0D82E9B9A6851C544331D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Proyek_IOS_BP_Jestut;
+			productName = Proyek_IOS_BP_Jestut;
+			productReference = 81D6651D25792782002CEB74 /* Proyek_IOS_BP_Jestut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D6651525792782002CEB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Petra;
+				TargetAttributes = {
+					81D6651C25792782002CEB74 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 81D6651825792782002CEB74 /* Build configuration list for PBXProject "Proyek_IOS_BP_Jestut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81D6651425792782002CEB74;
+			productRefGroup = 81D6651E25792782002CEB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D6651C25792782002CEB74 /* Proyek_IOS_BP_Jestut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D6651B25792782002CEB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D6652D257927A0002CEB74 /* LaunchScreen.storyboard in Resources */,
+				81D6653B257C155C002CEB74 /* stopwatch-graphic-icon-design-template-png_302689.jpg in Resources */,
+				81D66539257BB64E002CEB74 /* GoogleService-Info.plist in Resources */,
+				81D6652A257927A0002CEB74 /* Assets.xcassets in Resources */,
+				81D6652825792782002CEB74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C0D82E9B9A6851C544331D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Proyek_IOS_BP_Jestut/Pods-Proyek_IOS_BP_Jestut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Proyek_IOS_BP_Jestut/Pods-Proyek_IOS_BP_Jestut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Proyek_IOS_BP_Jestut/Pods-Proyek_IOS_BP_Jestut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3C835983ED08591257949E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Proyek_IOS_BP_Jestut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D6651925792782002CEB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D6652525792782002CEB74 /* ViewController.swift in Sources */,
+				81D6653D257CA21D002CEB74 /* workoutDetailViewController.swift in Sources */,
+				81D6653F257E0F0C002CEB74 /* workoutDetailCell.swift in Sources */,
+				81D6652125792782002CEB74 /* AppDelegate.swift in Sources */,
+				81D66535257B910F002CEB74 /* titleWorkoutViewController.swift in Sources */,
+				81D66546257E694E002CEB74 /* timerPageViewController.swift in Sources */,
+				81D66541257E10BF002CEB74 /* Exercise.swift in Sources */,
+				81D6652325792782002CEB74 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81D6652625792782002CEB74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D6652725792782002CEB74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81D6652B257927A0002CEB74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D6652C257927A0002CEB74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D6652F257927A0002CEB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81D66530257927A0002CEB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81D66532257927A0002CEB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0572754F582A0D75903892 /* Pods-Proyek_IOS_BP_Jestut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Proyek_IOS_BP_Jestut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.ac.petra.Proyek-IOS-BP-Jestut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81D66533257927A0002CEB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27AF64E4B1CB5296DF93AD7 /* Pods-Proyek_IOS_BP_Jestut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Proyek_IOS_BP_Jestut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.ac.petra.Proyek-IOS-BP-Jestut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D6651825792782002CEB74 /* Build configuration list for PBXProject "Proyek_IOS_BP_Jestut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D6652F257927A0002CEB74 /* Debug */,
+				81D66530257927A0002CEB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D66531257927A0002CEB74 /* Build configuration list for PBXNativeTarget "Proyek_IOS_BP_Jestut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D66532257927A0002CEB74 /* Debug */,
+				81D66533257927A0002CEB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D6651525792782002CEB74 /* Project object */;
+}

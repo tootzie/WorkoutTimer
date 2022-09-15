@@ -1,0 +1,6 @@
+framework module Pods_Proyek_IOS_BP_Jestut {
+  umbrella header "Pods-Proyek_IOS_BP_Jestut-umbrella.h"
+
+  export *
+  module * { export * }
+}
